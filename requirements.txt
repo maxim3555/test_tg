@@ -159,7 +159,7 @@ pytweening==1.2.0
 pytz==2024.1
 
 pywin32-ctypes==0.2.3
-pywinauto==0.6.8
+
 pywinpty==2.0.14
 PyYAML==6.0.2
 pyzmq==26.2.0
