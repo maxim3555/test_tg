@@ -1,17 +1,11 @@
 import os
-import random
-import time
-from io import BytesIO
-from fake_useragent import UserAgent
 
-import pyautogui
+import time
+
 import threading
 import openpyxl
 import requests
-from PIL import Image
-import win32clipboard as clipboard
-from selenium import webdriver
-from selenium.webdriver.firefox.options import Options
+
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
