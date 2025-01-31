@@ -1,0 +1,10 @@
+name: bot
+on:
+    push:
+
+jobs:
+    BOT:
+        runs-on: ubuntu-latest
+        steps:
+            - name: code
+              uses: actions/checkout@v4
