@@ -1,0 +1,14 @@
+{"timestamp":0,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"path_key":"clean","glean_timestamp":"1738295459624","can_load":"true","loadfail_reason":"N/A"}}
+{"timestamp":0,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"path_key":"clean","can_load":"true","loadfail_reason":"N/A","glean_timestamp":"1738295459624"}}
+{"timestamp":0,"category":"session_restore","name":"shutdown_success_session_startup","extra":{"shutdown_reason":"N/A","shutdown_ok":"false","glean_timestamp":"1738295459625"}}
+{"timestamp":307,"category":"webcompatreporting","name":"reason_dropdown","extra":{"setting":"required","glean_timestamp":"1738295459931"}}
+{"timestamp":664,"category":"doh","name":"state_enabled","extra":{"value":"null","glean_timestamp":"1738295460288"}}
+{"timestamp":664,"category":"doh","name":"evaluate_v2_heuristics","extra":{"value":"enable_doh","platform":"","captiveState":"not_captive","steeredProvider":"","networkID":"lbiueZMqASb8/Tm4JeYxXGIAiA84mEwRVR7uL773cBw=","enterprise":"","filtering":"","evaluateReason":"startup","glean_timestamp":"1738295460288","canaries":""}}
+{"timestamp":778,"category":"normandy","name":"validation_failed_nimbus_experiment","extra":{"value":"add-an-image-to-pdf-with-alt-text-rollout","reason":"invalid-feature","feature":"addAnImageInPDF","glean_timestamp":"1738295460402"}}
+{"timestamp":778,"category":"nimbus_events","name":"validation_failed","extra":{"experiment":"add-an-image-to-pdf-with-alt-text-rollout","feature":"addAnImageInPDF","glean_timestamp":"1738295460402","reason":"invalid-feature"}}
+{"timestamp":778,"category":"nimbus_events","name":"is_ready","extra":{"glean_timestamp":"1738295460402"}}
+{"timestamp":830,"category":"upgrade_dialog","name":"trigger_reason","extra":{"value":"not-major","glean_timestamp":"1738295460454"}}
+{"timestamp":1057,"category":"network.dns","name":"trr_confirmation_context","extra":{"attemptCount":"1","results":"+","networkID":"akR0YioFTd5V87YSCxy6c0TAUE0=","contextReason":"pref-change","captivePortal":"1","time":"393.716100","trigger":"pref-change","glean_timestamp":"1738295460682","value":"2"}}
+{"timestamp":0,"category":"media","name":"error","extra":{"error_type":"SrcNotSupportedErr","error_name":"NS_ERROR_DOM_MEDIA_NOT_SUPPORTED_ERR","glean_timestamp":"1738295487212"}}
+{"timestamp":43,"category":"media","name":"error","extra":{"error_name":"NS_ERROR_DOM_MEDIA_NOT_SUPPORTED_ERR","glean_timestamp":"1738295487212","error_type":"SrcNotSupportedErr"}}
+{"timestamp":27617,"category":"doh","name":"state_shutdown","extra":{"value":"null","glean_timestamp":"1738295487242"}}
