@@ -241,7 +241,7 @@ def upload_process(profile_path):
 while True:
 
     threads = []
-    num_threads = 1 # Количество потоков, которые вы хотите запустить одновременно
+    num_threads = 0 # Количество потоков, которые вы хотите запустить одновременно
 
 
 
