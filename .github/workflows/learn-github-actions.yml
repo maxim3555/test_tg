@@ -8,10 +8,7 @@ jobs:
         steps:
             - name: code
               uses: actions/checkout@v4
-            - name: Load .env file
-              uses: actions/load-environment-variables@v1
-              with:
-                path: .env
+
             - name: Set up Firefox
               uses: actions/setup-firefox@v1
               with:
