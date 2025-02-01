@@ -8,9 +8,6 @@ jobs:
         steps:
             - name: code
               uses: actions/checkout@v4
-
-
-
             - name: install requirements
               run: pip install -r requirements.txt
             - name: run app

@@ -155,8 +155,11 @@ def regictracia(driver):
         driver.get(link)
         spisok_game_element = ['СТАРТ']
         poisk_elementov_click(driver, spisok_game_element, 30)
+        driver.save_screenshot(f"screenshot{account_11}.png")
+        magnit_kupon(f"screenshot{account_11}.png")
+        send_msg(f'{account_11},{link}')
 
-#находим подписаться и жмем
+        #находим подписаться и жмем
         spisok_game_element = ['ПОДПИСАТЬСЯ','SUBSCRIBE']
         print(spisok_game_element)
         poisk_elementov_click(driver, spisok_game_element, 5)
@@ -248,7 +251,7 @@ while True:
 
         if a == None or b != None:
             print(schet, list1['C'][schet].value)
-            account_1 = list1['B'][schet].value
+            account_1 = 'Новая папка'#list1['B'][schet].value
 
             # Создаем и запускаем поток
             t = threading.Thread(target=upload_process, args=(account_1,))
