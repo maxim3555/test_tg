@@ -9,9 +9,10 @@ jobs:
             - name: code
               uses: actions/checkout@v4
 
-            - name: Set up Firefox
-              uses: actions/setup-firefox@v1
+            - name: Setup Firefox
+              uses: web-platform-tests/wpt-action@v1
               with:
+                browser: firefox
                 version: latest
 
             - name: install requirements
