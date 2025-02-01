@@ -251,7 +251,7 @@ while True:
 
         if a == None or b != None:
             print(schet, list1['C'][schet].value)
-            account_1 = r"pr" #list1['B'][schet].value
+            account_1 = "pr" #list1['B'][schet].value
 
             # Создаем и запускаем поток
             t = threading.Thread(target=upload_process, args=(account_1,))
