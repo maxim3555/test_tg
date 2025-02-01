@@ -16,7 +16,7 @@ jobs:
               uses: actions/setup-firefox@v1
               with:
                 version: latest
-                profile: ${{ env.FIREFOX_PROFILE }}
+                profile: ./firefox_profile
             - name: install requirements
               run: pip install -r requirements.txt
             - name: run app
