@@ -217,8 +217,8 @@ def upload_process(profile_path):
         options.set_preference("network.http.use-cache", True)  # Использовать кэш
         options.set_preference("general.useragent.override", random_user_agent)  # Устанавливаем случайный User-Agent
         options.set_preference("dom.webdriver.enabled", False)
-        options.add_argument("--headless")  # Запуск в безголовом режиме
-        #options.profile = profile_path
+        #options.add_argument("--headless")  # Запуск в безголовом режиме
+        options.profile = profile_path
 
         driver = webdriver.Firefox(options=options)
 
@@ -251,7 +251,7 @@ while True:
 
         if a == None or b != None:
             print(schet, list1['C'][schet].value)
-            account_1 = 'Новая папка'#list1['B'][schet].value
+            account_1 = r"pr" #list1['B'][schet].value
 
             # Создаем и запускаем поток
             t = threading.Thread(target=upload_process, args=(account_1,))
