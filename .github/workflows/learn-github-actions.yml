@@ -9,8 +9,7 @@ jobs:
             - name: code
               uses: actions/checkout@v4
 
-            - name: Setup Firefox
-              uses: actions/setup-firefox@latest
+
 
             - name: install requirements
               run: pip install -r requirements.txt
